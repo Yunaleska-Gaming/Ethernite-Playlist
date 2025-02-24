@@ -1,0 +1,114 @@
+body {
+    background-color: #000000;
+}
+
+@font-face {
+	font-family: Lobster;
+	src: url('../fonts/Lobster.eot');
+	src: url('../fonts/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lobster_1.3-webfont.woff2') format('woff2'),
+		 url('../fonts/Lobster_1.3-webfont.woff') format('woff'),
+		 url('../fonts/Lobster_1.3-webfont.ttf') format('truetype'),
+		 url('../fonts/Lobster_1.3-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Blacklisted;
+	src: url('../fonts/Blacklisted.eot');
+	src: url('../fonts/Blacklisted.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Blacklisted.woff2') format('woff2'),
+		 url('../fonts/Blacklisted.woff') format('woff'),
+		 url('../fonts/Blacklisted.ttf') format('truetype'),
+		 url('../fonts/Blacklisted.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.yunaleska-playlist__main {
+    width: 30%;
+    margin: auto;
+    background-color: #121212;
+    padding: 5px 25px 25px 25px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: rgb(255, 80, 2);
+    font-family: Lobster;
+    font-weight: normal;
+    font-size: 72px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px white, -2px -2px white;
+}
+
+.twitch-link { 
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.twitch-link a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: rgb(255, 80, 2);
+    transition: all 0.25s;
+}
+
+.twitch-link a:hover {
+    color : white;
+}
+
+li  {
+    border-radius: 12px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    transition: all 0.25s;
+}
+
+h3, h4 {
+    color: #a7a7a7;
+    margin: 0;
+    text-transform: uppercase; 
+    font-weight: normal;
+}
+
+h3 { font-family: Blacklisted; letter-spacing: 1px;}
+h4 { font-family: Roboto; }
+
+ .circle {
+    padding : 12px 16px;
+    background-color: rgb(255, 80, 2);
+    border-radius: 50px;
+    transition: all 0.25s;
+ }
+
+ .circle:hover {
+    background-color: white;
+ }
+
+ a .circle:hover {
+    color : rgb(255, 80, 2);
+ }
+
+ ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ li a {
+    color : #ffffff;
+    text-decoration: none;
+ }
+
+ li:hover { 
+    background-color: #1d1d1d;
+}
